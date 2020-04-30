@@ -1,9 +1,9 @@
 #banner-bg {
     position: absolute;
-    top: 0;
+    top: 200;
     left: 0;
     width: 100%;
-    height: 260;
+    height: 260px;
     z-index: 100;
 }
 
@@ -19,4 +19,9 @@
 .content {
     position: absolute;
     z-index: 200;  
+}
+
+.page-header {
+    height: 200px;
+    background-color: darkblue;
 }
