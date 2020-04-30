@@ -15,3 +15,7 @@
 .centered-and-cropped {
     object-fit: cover;
 }
+
+.content {
+    z-index: 200;  
+}
