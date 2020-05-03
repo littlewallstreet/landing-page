@@ -42,3 +42,44 @@ body {
 #logo {
     width: 300px;
 }
+
+#spacer {
+    height: 240px;
+}
+
+#email-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+}
+
+#email-input {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 4px;
+    width: 300px;
+}
+
+#story-box , #copyright-box{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-link {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
